@@ -1,5 +1,6 @@
 export class Product {
-    constructor(public id: number, 
+    constructor(
+    public id: number, 
     public name: string, 
     public company: string, 
     public price: number, 
@@ -8,5 +9,7 @@ export class Product {
     public modifyDate?: Date
 ) {}
 
-  
+  setDisplay(isShow: boolean) :void {
+    this.isShow = isShow;
+  }
 }
