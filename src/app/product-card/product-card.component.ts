@@ -16,4 +16,6 @@ export class ProductCardComponent {
   onSetDisplay(isShow: boolean): void {
     this.isShow = isShow;
   }
+
+  photoUrl = 'https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img';
 }
